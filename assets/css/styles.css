@@ -71,6 +71,18 @@ h3#projectHeader {
 
 }
 
+div.card {
+
+  height: 450px;
+
+}
+
+div.card-action {
+
+  padding-top: 30px;
+
+}
+
 div.card-SS {
 
   height: 300px;
@@ -95,7 +107,7 @@ p.card-custTitle {
 
 }
 
-a.viewLive {
+a.viewSite {
 
   margin-left: 25px;
   margin-right: 0;
