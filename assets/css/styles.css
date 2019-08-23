@@ -1,0 +1,49 @@
+body {
+
+  background: url("../images/laptopBG.jpg") no-repeat center center fixed;
+  background-size: cover;
+  transition: 3s;
+
+}
+
+div.mainContent {
+
+  margin-top: 250px;
+
+}
+
+h4 {
+
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h4.name {
+
+  letter-spacing: 3px;
+
+}
+
+h4.role {
+
+  color: #4875B4;
+  border-top: 1px solid #ffffff;
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+}
+
+img.linkedIn {
+
+  height: 32px;
+  width: 36px;
+  margin-left: 20px;
+
+}
+
+div#portfolio {
+
+  margin-top: 500px;
+
+}
