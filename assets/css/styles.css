@@ -1,8 +1,9 @@
-body {
+div#main {
 
   background: url("../images/laptopBG.jpg") no-repeat center center fixed;
   background-size: cover;
-  transition: 3s;
+  height: 840px;
+  /* transition: 3s; */
 
 }
 
@@ -39,11 +40,85 @@ img.linkedIn {
   height: 32px;
   width: 36px;
   margin-left: 20px;
+  cursor: pointer;
 
 }
 
-div#portfolio {
+img.github {
 
-  margin-top: 500px;
+  cursor: pointer;
 
 }
+
+i.resumeIcon {
+
+  font-size: 36px;
+  margin-left: 15px;
+  cursor: pointer;
+  color: white;
+
+}
+
+div#portfolioHeader {
+
+  margin-top: 250px;
+
+}
+
+h3#projectHeader {
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+div.card-SS {
+
+  height: 300px;
+
+}
+
+p.card-custTitle {
+
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+}
+
+.card .card-content p {
+
+  margin-bottom: 10px;
+
+}
+
+a.viewLive {
+
+  margin-left: 25px;
+  margin-right: 0;
+  padding-right: 30px;
+  border-right: 1px solid lightgray;
+
+}
+
+a.viewCode {
+
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+div.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+
+  color: black;
+
+}
+
+/* a:hover {
+
+  color: blue;
+
+} */
