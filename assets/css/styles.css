@@ -68,6 +68,12 @@ i.resumeIcon {
 
 }
 
+p.aboutMe {
+
+  font-size: 1.2em;
+
+}
+
 div#portfolioHeader {
 
   margin-top: 250px;
@@ -135,5 +141,13 @@ a.viewCode {
 div.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
 
   color: black;
+
+}
+
+div.custFooter {
+
+  text-align: center;
+  height: 80px;
+  background-color: #4875B4;
 
 }
