@@ -12,6 +12,7 @@
   <!-- css -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -27,32 +28,14 @@
 
     <div class="col s12 m4 l4 center mainContent">
       <h4 class="center name">Michael Nos</h4>
-      <h4 class="center role">Full Stack Web Developer</h4>
-
-      <span>
-        <a href="mailto:mnos9897@gmail.com" target="_blank"><i class="material-icons mailIcon">
-            email
-          </i></a>
-      </span>
-
-      <span>
-        <a href="https://github.com/mmnos" target="_blank"><img class="github"
-            src="./assets/images/GitHub-Mark/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" /></a>
-      </span>
-
-      <span>
-        <a href="https://www.linkedin.com/in/michael-nos/" target="_blank"><img class="linkedIn"
-            src="./assets/images/LinkedIn-Logos/LI-In-Bug.png" /></a>
-      </span>
-
-      <span>
-        <a href="./assets/Michael Nos - Resume.pdf" target="_blank"><i class="material-icons resumeIcon">
-            description
-          </i></a>
-      </span>
+      <h4 class="center role">Full Stack Software Engineer</h4>
     </div>
 
-    <div class="col m4"></div>
+    <div id="linkDiv" class="col m4">
+      <a href="https://www.linkedin.com/in/michael-nos/" target="_blank" class="links">LINKEDIN</a>
+      <a href="https://github.com/mmnos" target="_blank" class="links">GITHUB</a>
+      <a href="mailto:mnos9897@gmail.com" target="_blank" class="links">EMAIL</a>
+    </div>
   </div>
 
   <div class="container">
@@ -67,10 +50,11 @@
 
       <div class="col m8">
         <p class="aboutMe">
-          A web developer with a passion for learning, problem solving and teaching people how to code. 
-          Through developed skills in web technologies such as Angular, React and MongoDB, I'm able to create
-          an intuitive user experience through responsive web designs. I'm looking to make a big impact
-          on people's lives, one line of code at a time.
+          Hi there! I'm a Software Engineer with a passion for learning, problem solving, and teaching people how to code.
+          For fun I enjoy trying out new restaurants, mountain biking, learning the guitar, and working on my craft. I also
+          have a Black Belt in Tae Kwon Do. Back to the technical side - through developed skills in popular web technologies
+          such as React, Angular, MongoDB, and NodeJS, I'm able to create an intuitive user experience through responsive
+          web designs. I'm working towards making a big change in people's lives, one line of code at a time.
         </p>
       </div>
 
@@ -96,9 +80,24 @@
               </div>
               <div class="card-content">
                 <p class="card-custTitle">Foodsta</p>
-                <p>Search or post about nearby restaurants, cuisines, and meals!</p>
+                <p class="custP">Search or post about nearby restaurants, cuisines, and meals!</p>
                 <p>
-                  <strong>Technology : </strong>Angular, AWS S3, Auth0, Node, Sequelize, Express
+                  <!-- <strong>Technology : </strong>Angular, AWS S3, Auth0, Node, Sequelize, Express -->
+                  <span>
+                    <i class="devicon-angularjs-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-amazonwebservices-original custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-express-original custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-mysql-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-nodejs-plain custIcons"></i>
+                  </span>
                 </p>
               </div>
               <div class="card-action">
@@ -121,8 +120,23 @@
                 <p class="card-custTitle">Bay Calendars</p>
                 <p>Schedule, Request and Invite people to events. All on your calendar</p>
                 <p>
-                  <strong>Technology : </strong>Materialize, jQuery,
-                  Node, Sequelize, Express
+                  <!-- <strong>Technology : </strong>Materialize, jQuery,
+                  Node, Sequelize, Express -->
+                  <span>
+                    <i class="devicon-html5-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-css3-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-express-original custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-mysql-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-nodejs-plain custIcons"></i>
+                  </span>
                 </p>
               </div>
               <div class="card-action">
@@ -145,8 +159,20 @@
                 <p class="card-custTitle">Moodify</p>
                 <p>Playlists based on the weather and your mood</p>
                 <p>
-                  <strong>Technology : </strong>Materialize, jQuery,
-                  Spotify/OpenWeatherMap API
+                  <!-- <strong>Technology : </strong>Materialize, jQuery,
+                  Spotify/OpenWeatherMap API -->
+                  <span>
+                    <i class="devicon-html5-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-css3-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-jquery-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-git-plain custIcons"></i>
+                  </span>
                 </p>
               </div>
               <div class="card-action">
@@ -169,8 +195,23 @@
                 <p class="card-custTitle">Friend Finder</p>
                 <p>Take a short survey to find out who your perfect friend is!</p>
                 <p>
-                  <strong>Technology : </strong>HTML/CSS, Materialize, jQuery,
-                  Node, Express
+                  <!-- <strong>Technology : </strong>HTML/CSS, Materialize, jQuery,
+                  Node, Express -->
+                  <span>
+                    <i class="devicon-html5-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-css3-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-jquery-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-express-original custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-nodejs-plain custIcons"></i>
+                  </span>
                 </p>
               </div>
               <div class="card-action">
@@ -193,8 +234,20 @@
                 <p class="card-custTitle">GifTastic</p>
                 <p>Search for any of your favorite gifs or stills here!</p>
                 <p>
-                  <strong>Technology : </strong>Materialize, jQuery, GitHub,
-                  Giphy API
+                  <!-- <strong>Technology : </strong>Materialize, jQuery, GitHub,
+                  Giphy API -->
+                  <span>
+                    <i class="devicon-html5-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-css3-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-javascript-plain custIcons"></i>
+                  </span>
+                  <span>
+                    <i class="devicon-git-plain custIcons"></i>
+                  </span>
                 </p>
               </div>
               <div class="card-action">
